@@ -1,0 +1,88 @@
+body {
+  	background-image: url("images/counter-top.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-image: 100%;
+}
+.container {
+  width: 650px;
+  margin: 0 auto;
+  background-color: lightblue; 
+  margin-top: 150px;
+  border-radius: 25px;
+
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+	font-size: 20px;
+	font-family: helvetica;
+}
+.input {
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 2px;
+	text-align: center;
+}
+h1 {
+	margin-top: 3px;
+	padding-top: 20px;
+	font-size: 48px;
+	margin-bottom: 10px;
+	font-family: marker felt;
+}
+#item {
+	margin-top: 8px;
+	height: 20px;
+	width: 200px;
+	vertical-align: center;
+}
+button {
+	height: 24px;
+	width: 24px;
+	background: none;
+	font-size: 18px;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 0 0 4px 0;
+}
+
+#list {
+	margin-top: 0;
+	padding: 5px 5px 5px 15px;
+	text-align: left;
+	list-style: none;
+}
+#list li {
+	font-size: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: zapfino;
+} 
+span {
+	margin: 0;
+}
+.box {
+	background-color: purple;
+	float: left;
+	margin-top: 3px;
+	margin-right: 30px;
+	height: 27px;
+	width: 27px;
+	background: url("images/checkbox.png") 0 0;
+}
+.checked {
+	height: 18px;
+	background: url("images/checkbox.png") 17px 0;
+}
+.strike {
+	text-decoration: line-through;
+}
+.delete {
+	float: right;
+	margin-top: 3px;
+	display: none;
+}
+.show {
+	display: inline;
+}
